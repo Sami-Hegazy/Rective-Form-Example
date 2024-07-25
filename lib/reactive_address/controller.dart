@@ -5,8 +5,8 @@ import 'package:reactive_forms_annotations/reactive_forms_annotations.dart';
 // import 'form.dart';
 
 @lazySingleton
-class PostDetailsReactiveController extends BdayaCombinedController {
-  PostDetailsReactiveController();
+class AddressReactiveController extends BdayaCombinedController {
+  AddressReactiveController();
 
   final formGroup = FormGroup({
     ConstFormGroup.postText: FormControl<String>(),

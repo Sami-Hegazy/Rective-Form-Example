@@ -5,8 +5,8 @@ import 'controller.dart';
 import 'package:flutter/material.dart';
 // import 'form.dart';
 
-class PostDetailsReactiveView extends StatelessWidget {
-  const PostDetailsReactiveView({
+class AddressReactiveView extends StatelessWidget {
+  const AddressReactiveView({
     super.key,
     required this.controller,
   });
@@ -19,7 +19,7 @@ class PostDetailsReactiveView extends StatelessWidget {
     List<Object?>? keys,
   }) =>
       HookBuilder(
-        builder: (context) => PostDetailsReactiveView(
+        builder: (context) => AddressReactiveView(
           controller: useBdayaViewController(
             hookMode: hookMode,
             instanceName: instanceName,
@@ -46,7 +46,7 @@ class PostDetailsReactiveView extends StatelessWidget {
   //   );
   // }
 
-  final PostDetailsReactiveController controller;
+  final AddressReactiveController controller;
 
   @override
   Widget build(BuildContext context) {
